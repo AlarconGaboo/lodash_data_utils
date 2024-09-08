@@ -1,0 +1,114 @@
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio (master)
+$ cd '/c/Users/alarc/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance'
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance (master)
+$ npm init -y
+Wrote to C:\Users\alarc\OneDrive\Escritorio\PRACTIANDO HTML\MODULO6\SESION3-M6\variables y alcance\package.json:
+
+{
+  "name": "variables-y-alcance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance (master)
+$ touch index.js datos.js animal.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance (master)
+$ node_modules/
+  lodash/
+bash: node_modules/: No such file or directory
+bash: lodash/: No such file or directory
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance (master)
+$ ^C
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance (master)
+$ cd '/c/Users/alarc/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance'
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance (master)
+$ ls
+animal.js  datos.js  index.js  package.json
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance (master)
+$ ls package.json
+package.json
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance (master)
+$ npm install lodash
+
+added 1 package, and audited 2 packages in 3s
+
+found 0 vulnerabilities
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance (master)
+$ ls node_modules
+lodash/
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance (master)
+$ npm list lodash
+variables-y-alcance@1.0.0 C:\Users\alarc\OneDrive\Escritorio\PRACTIANDO HTML\MODULO6\SESION3-M6\variables y alcance
+└── lodash@4.17.21
+
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance (master)
+$ node index.js
+Autos Únicos: [ 'mazda', 'renault', 'ferrari', 'jeep', 'audi' ]
+Animales Salvajes: [
+  {
+    animal: 'tigre',
+    tipo: 'salvaje',
+    nombre: 'hendrix',
+    edad: 8,
+    color: 'naranja',
+    habitat: 'selva',
+    dieta: 'Carnívoro',
+    peso: '200 kg'
+  },
+  {
+    animal: 'tiburon',
+    tipo: 'salvaje',
+    nombre: 'ray charles',
+    edad: 10,
+    color: 'gris',
+    habitat: 'océano',
+    dieta: 'Carnívoro',
+    peso: '500 kg'
+  }
+]
+El animal es un elvis, es un mascota de 5 años, de color marrón, y vive en la ca
+sa.
+Suma tradicional: 8
+Suma con función de flecha: 8
+Animal actualizado: {
+  animal: 'perro',
+  tipo: 'mascota',
+  nombre: 'elvis',
+  edad: 6,
+  color: 'marrón',
+  habitat: 'Sabana',
+  dieta: 'Carnívoro',
+  peso: '300 kg'
+}
+Propiedades del animal actualizado:
+perro
+mascota
+elvis
+6
+marrón
+Sabana
+Carnívoro
+300 kg
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION3-M6/variables y alcance (master)
+$ 
